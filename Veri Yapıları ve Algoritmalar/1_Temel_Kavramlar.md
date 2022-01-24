@@ -71,3 +71,59 @@ Doğru
 .class  
 
 ## Sayı Sistemleri
+
+![Sayı Sistemler](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/sayi-sistem/figures/ikili-say%C4%B1.png)
+
+![Durumlar](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/sayi-sistem/figures/durumlar.jpg)
+
+* Onluk sayı sistemindeki bir sayı ikilik sisteme, ikilik sistemdeki bir sayı ise onluk sisteme dönüştürülebilir. Nasıl mı? Hemencecik açıklayalım. Onluk tabanda 120 sayısını ikilik sayı sistemine dönüştürelim.
+
+![İkilik Taban](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/sayi-sistem/figures/ikilik-tabana-%C3%A7evirme.png)
+
+* Peki ya ikilik tabanındaki bir sayıyı onluk tabana nasıl dönüştüreceğiz? Nasıl mı? Beyniniz mi yandı :). Devammm. Sayımız ikilik tabanda 111010 sayısı hadi başlayalım. Az önce öğrendiğimiz bilgiyi çevirmede kullanıyoruz. Aslında 20 dan başlamamızın sebebi onluk sayı sistemine geçirdiğimizden kaynaklanıyor.
+
+![Onluk Taban](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/sayi-sistem/figures/onluk-tabana-%C3%A7evirme.png)
+
+### Kaynaklar - 1.3
+
+1. [İkili Sayı Sistemi](https://tr.wikipedia.org/wiki/%C4%B0kili_say%C4%B1_sistemi)
+
+2. [Binary Number System](https://www.mathsisfun.com/binary-number-system.html)
+
+3. [Convert-Number Systems](https://www.purplemath.com/modules/numbbase.htm)
+
+### Test - 1.3
+
+**Soru - 1/3**  
+**Aşağıdakilerden hangisi bir sayı sistemi değildir?**  
+Yedilik Sayı Sistemi
+**Soru - 2/3**  
+**150 sayısının ikili sayı sistemindeki karşılığı hangisidir?**  
+10010110  
+**Soru - 3/3**  
+**1011 0110 0010 sayısının onluk sistemdeki karşılığı nedir?**  
+2914  
+
+## Sayısal Olmayan Verilerin Tutulması  
+
+* Bilgisayarda var olan her şey 1 ve 0 dan oluştuğunu geçtiğimiz derste gördük. Binary'den onluk tabana nasıl dönüştüreceğimizi öğrendik. Peki ya bir harfi nasıl ifade edeceğiz? Sayısal olmayan bir ifadenin sembol ile gösterimi yapılabilir. Mesela, 1100010010 sayısını onluk tabana çevirdiğimizde değeri 786, fakat sayı olarak değil de bir sembol olarak incelersek karşılığı W harfi olabilir. Başka bir örnek, elimizde 100101010 sembolü var ve bu sembolün karşılık geldiği değer V olabilir.
+
+![Binary Sembol](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/sayisal-olmayan/figures/binary-symbol.gif)
+
+### Kaynaklar - 1.4  
+
+1. [Binary Sembol](hhttps://en.wikipedia.org/wiki/Binary_code)  
+
+### Test - 1.4
+
+**Soru - 1/3**  
+**1001 sembolü 'a' harfini ifade ediyor ise 1010 sembolü aşağıdakilerden hangisi olabilir?**  
+'b'  
+**Soru - 2/3**  
+**Aşağıdakilerden hangisi doğrudur?**  
+1001 semnbolü bazen 9 sayısını ifade ederken bazen 'c' harfini ifade edebilir.  
+**Soru - 3/3**  
+**100101010 bilgisayarda bulunan resmin bir kısmını ifade edebilir.**  
+Doğru  
+
+## Verilerin Tutulması  
