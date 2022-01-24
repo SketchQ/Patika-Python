@@ -62,10 +62,10 @@ Transistörlerde iki tane komut vardır, 0(kapat) ve 1(açık).
 
 **Soru - 1/3**  
 **Bilgisayarlar bilgiyi nasıl ifade ederler?**  
-İkili Sayılar ile
+İkili Sayılar ile  
 **Soru - 2/3**  
 **Transistör elektrik akımı ileten, 0 ve 1 ile çalışan bir devre parçasıdır.**  
-Doğru
+Doğru  
 **Soru - 3/3**  
 **Sadece JVM'nin derleyebildiği format aşağıdakilerden hangisidir?**  
 .class  
