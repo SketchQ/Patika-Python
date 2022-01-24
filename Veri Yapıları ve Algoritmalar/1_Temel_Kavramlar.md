@@ -127,3 +127,70 @@ Yedilik Sayı Sistemi
 Doğru  
 
 ## Verilerin Tutulması  
+
+* Bilgisayar, yapısından dolayı içerisinde tutulabilecek veri miktarı sınırlıdır. Bu verilerin en küçük yapı taşları bitlerdir.
+
+![Verilerin Tutulması](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/veri-tutulma/figures/veri-tutulma.png)
+
+* Şimdi karşımıza çıkan problemlerin bir tanesi, 256 sembolden daha fazla bir depolama alanı isteyebiliriz. Peki bu durum da ne yapacağız? Aslında çözüm çok basit byte'ları yan yana koyarak depolama alanımızı arttıracağız.
+
+![Verilerin Tutulması](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/veri-tutulma/figures/veri-tutulma2.png)
+
+* Binary semboller, kullanan kişiye göre farklılık gösterebilir.
+
+![Verilerin Tutulması](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/veri-tutulma/figures/sembol-veri.png)
+
+### Kaynaklar - 1.5
+
+1. [Bit-Nedir](https://tr.wikipedia.org/wiki/Bit_(bili%C5%9Fim)#Bitler)
+
+2. [Byte-Nedir](https://tr.wikipedia.org/wiki/Bayt)
+
+3. [What is Bit](https://techmonitor.ai/what-is/what-is-a-bit-4950370)
+
+4. [Bit and Bytes](https://web.stanford.edu/class/cs101/bits-bytes.html)
+
+### Test - 1.5
+
+**Soru - 1/3**  
+**Bil ile ilgili verilen bilgilerin hangisi doğrudur?**  
+Verilerin en küçük yapı taşları bitlerdir.  
+**Soru - 2/3**  
+**Binary semboller kişiden kişiye farklılık göstermez.**  
+Hayır  
+**Soru - 3/3**  
+**Byte 8 bitten daha fazla bit değeri alamaz.**  
+Evet  
+
+## Recursion
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
+
+* Bir problemin alt problemlere bölünüp hesaplanmasına, nerde son bulacağımı belirttiğimiz ifadelere recursion (Özyineleme) diyoruz.
+
+![Fibonacci](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/recursion/figures/fibonacci.png)
+
+* Fibonacci serisi 0,1 den başlayarak her önceki 2 sayının toplamı şeklinde bir kurala sahiptir. 0+1 = 1, 1+1=2, 2+1=3, 3+2=5 gibi. Kendinden bir önceki eleman ile iki önceki elemanın toplamı serinin devam sayısını verir. Recursion kullanımı : Fonksiyonumuz fib(x). 3. elemana n diyelim, fib(n-1) + fib(n-2) bize 3.elemanı yani 1 sonucunu verir. fib(n-1) + fib(n-2) => Recursion
+
+### Kaynaklar - 1.6
+
+1. [Özyineleme Nedir?](https://tr.wikipedia.org/wiki/%C3%96zyineleme)
+
+2. [Fibonacci](https://tr.wikipedia.org/wiki/Fibonacci_say%C4%B1)
+
+3. [Explanation of Recursion](https://www.geeksforgeeks.org/recursion/)
+
+### Test - 1.6
+
+**Soru - 1/2**  
+**Aşağıdaki tanımların hangisi yanlıştır?**  
+Recursion için tekrarın önemi yoktur.Önemli olan sonuçtur.  
+**Soru - 2/2**  
+**Recursion kendini çağırmak anlamına gelebilir.**  
+Doğru  
