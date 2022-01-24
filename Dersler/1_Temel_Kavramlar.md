@@ -17,21 +17,18 @@ Algoritma nedir sorusunun cevabı, bir problemin çözümü için gerekli olan a
 
 ### Test
 
-Soru - 1/3
-
-Aşağıdakilarden hangisi bir algoritma tanımı değildir?
+**Soru - 1/3**  
+**Aşağıdakilarden hangisi bir algoritma tanımı değildir?**
 
 Bilgisayar bilimlerinde ya da matemetikte kullanılan, verilen bir listenin elemanlarını belirli bir sıraya sokan kurallardır.
 
-Soru - 2/3
-
-Algoritma terimini ilk olarak 9.yy'da kim ortaya çıkarmıştır?
+**Soru - 2/3**  
+**Algoritma terimini ilk olarak 9.yy'da kim ortaya çıkarmıştır?**
 
 Harizmi
 
-Soru - 3/3
-
-Aşağıdaki örneklerden hangisi bir algoritmayı ifade etmez?
+**Soru - 3/3**  
+**Aşağıdaki örneklerden hangisi bir algoritmayı ifade etmez?**
 
 Oturmak
 
