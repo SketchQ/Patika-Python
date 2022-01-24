@@ -1,4 +1,4 @@
-#  Veri-Yapiları-ve-Algoritmalar (Patika.dev)
+# Veri-Yapiları-ve-Algoritmalar
 
 Bir veri yapısı verileri organize etmenin bir yoludur, oysa algoritma problemleri çözmek için bir yöntem veya modeldir. Veri yapıları ve algoritmalar her programcı bilmelidir. Bu eğitim sana ışık tutacak.
 
