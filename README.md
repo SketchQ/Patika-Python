@@ -1,6 +1,6 @@
 # Patika.dev Python Patikası
 
-![Patika.dev](https://uploads-ssl.webflow.com/6097e0eca1e87557da031fef/609859a191abe5d64b17fed3_Patika%20logo.png)
+![python](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 Yeni bir patika, yeni bir başlangıç.
 
@@ -21,5 +21,7 @@ Yeni bir patika, yeni bir başlangıç.
 * İstatistik
 
 ### Kaynak (Patika.dev)
+
+![Patika.dev](https://pbs.twimg.com/profile_images/1360317534172569614/sdir3Sab_400x400.jpg)
 
 [Patika](https://app.patika.dev/egitimler/bootcamp-hizlandirma-programi---python)
