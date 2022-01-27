@@ -164,3 +164,64 @@ Doğru
 Yemekhaneye önce giden öğrencinin en erken ayrılması  
 
 ## Hash Table
+
+![Indexleme](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/hash-table/figures/Indexleme.png)
+
+### Hash Function / Hash Table
+
+Hash Table, key value prensibine dayanan bir array kümesidir. Key olarak çağırdığınız elemanın değerini (value) yansıtır.  
+Hash Table yerine dizileri kullanabilirdik. Fakat her ürünü ve fiyatını tek tek aramak istemediğimiz için hash table kullanıyoruz.  
+
+![Örnek_1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/hash-table/figures/%C3%B6rnek-ilk-k%C4%B1s%C4%B1m.png)
+
+Bu kısımda ilk olarak bulunan ürün sayımız kadar değeri olan bir Array oluşturduk.Daha sonra hash fonksiyonundan ürünleri geçirerek index değerlerine ulaştık.  
+
+![Örnek_2](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/hash-table/figures/%C3%B6rnek-ikinci-k%C4%B1s%C4%B1m.png)
+
+Şifrelendiği için artık her badem keyi gönderildiğinde 85TL, fıstık keyi gönderildiğinde ise 69 sonucu verecektir.Özetle, elimizde var olan verileri bir fonksiyondan geçirip indexliyoruz. Bu fonksiyona hash function, bu fonksiyon ile birleştiğimiz dizi yapısına ise Hash Table diyoruz.  
+
+#### Kaynak 1.7
+
+1. [Hash table nedir?](https://www.youtube.com/watch?v=_TCkO3DnVs4)
+
+2. [Full Definition](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
+
+#### Test 1.7
+
+**Soru 1/2**  
+Hash Table bir şeyi aramak için kullanılmaz  
+**Soru 2/2**  
+Yanlış  
+
+## Hash Function
+
+Hash Function (Karma Fonksiyonu), karma fonksiyonu olabilmesi için bazı temel şartlar vardır.Bunlar;
+
+1. Gönderdiğimiz anahtarlar (keys) farklı olmasına rağmen bize aynı sonuçları veriyorsa bu bir hash function değildir.
+2. Fonksiyona gönderilen anahtarlar aynı fakat sonuç farklı ise hash function değildir.
+3. Hash Table için kullanılan dizinin boyutu verilen sonuçların sayısı kadar olmalı.
+
+### Kaynak 1.8
+
+1. [Hash Fonksiyonu](https://tr.wikipedia.org/wiki/Karma_i%C5%9Flevi)
+
+2. [Hash Function](https://www.techopedia.com/definition/19744/hash-function)
+
+### Test 1.8
+
+**Soru 1/1**  
+Fonksiyona yedirdiğimiz keyler farklı değerle dönüyorsa bu bir Hash function değildir.  
+
+## Hash Collision
+
+Hash Function farklı iki değerden aynı sayı üretilirse bu duruma Collison (çarpışma) denir. Bu olay istediğimiz bir durum değildir.
+
+* Hash Function'lar bazen farklı durumlar için farklı sonuçlar üretemeyebilir. Örnek olarak araçları bir hash function dan geçirelim. Bu fonksiyonumuz son harflerine göre bir değer atıyor. Örneğin, motor ve tır için aynı değerleri ataması collision'a neden oluyor.
+* Collision sorunuyla az karşılaşabilmek için kaliteli bir hash function olmalı. Bu sayede verimli bir Hash Table elde etmiş oluyoruz.
+* Çarpışma sayısı arttıkça aradığımız şeyi bulma hızı azalır.
+
+### Kaynak 1.9
+
+1. [Wiki](https://en.wikipedia.org/wiki/Hash_collision)
+
+2. [Detail-Collision](https://freemanlaw.com/hash-collisions-explained/)
