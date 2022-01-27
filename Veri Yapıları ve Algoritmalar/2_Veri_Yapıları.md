@@ -110,3 +110,57 @@ Yanlış
 Doğru  
 
 ## Stack
+
+* Stack(Stack), veri yapısının en son eklenen elemanının çıkarmasını sağlayan yapıdır. LIFO(Last In First Out) yapısına sahiptir.
+* Push(Ekleme), öncelikle yeni bir eleman eklenir.
+* Pop(Çıkarma), öncelikle çıkartılacak elemanın adresini alır.
+
+![Stack](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/stack/figures/stack.png)
+
+### Kaynak 1.5
+
+1. [Stack Kod örneği](http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/dataStructures/Collections/ClassStack.pdf)
+
+2. [Stack detaylı Anlatım](https://cdn-acikogretim.istanbul.edu.tr/auzefcontent/20_21_Guz/veri_yapilari/6/index.html)
+
+3. [Stack Short Definition](https://runestone.academy/ns/books/published//pythonds/BasicDS/WhatisaStack.html)
+
+4. [Stack Definition with Code](https://www.studytonight.com/data-structures/stack-data-structure)
+
+### Test 1.5
+
+**Soru 1/3**  
+İlk Giren ilk Çıkar  
+**Soru 2/3**  
+Doğru  
+**Soru 3/3**  
+Hayır  
+
+## Queue
+
+* Queue(Queue), veri yapısının ilk eklenen elemanının çıkarmasını sağlayan yapıdır. FIFO(First In First Out) yapısına sahiptir.
+* Enqueue(Ekleme), öncelikle yeni bir eleman eklenir.
+* Dequeue(Çıkarma), öncelikle çıkartılacak elemanın adresini alır.
+
+![Queue](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/veri-yapilari-algoritmalar/queue/figures/queue.png)
+
+### Kaynak 1.6
+
+1. [Queue Kod örneği](https://medium.com/@tolgahan.cepel/do%C4%9Frusal-veri-yap%C4%B1lar%C4%B1-4-kuyruk-queue-dcbd07e8ba77)
+
+2. [Queue detaylı Anlatım](https://cdn-acikogretim.istanbul.edu.tr/auzefcontent/20_21_Guz/veri_yapilari/7/index.html)
+
+3. [Queue Short Definition](https://www.educative.io/edpresso/what-is-a-queue)
+
+4. [Queue Detail Definition](https://www.studytonight.com/data-structures/queue-data-structure)
+
+### Test 1.6
+
+**Soru 1/3**  
+Enqueue ile eleman eklemesi yapılır.  
+**Soru 2/3**  
+Doğru  
+**Soru 3/3**  
+Yemekhaneye önce giden öğrencinin en erken ayrılması  
+
+## Hash Table
