@@ -6,9 +6,9 @@ Yeni bir patika, yeni bir başlangıç.
 
 ## İçerik  
 
-* Veri Yapıları ve Algoritmalar
+* Veri Yapıları ve Algoritmalar **Done**
 
-* GIT
+* GIT                           **Done**
 
 * Python Temel
 
