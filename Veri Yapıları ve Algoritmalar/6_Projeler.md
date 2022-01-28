@@ -44,3 +44,27 @@ Avarage Case
 [2,3,4,5,6,9,8,15,7] -- > 4. Aşama
 
 ```
+
+## Merge Sort (Proje 2)
+
+**[16,21,11,8,12,22]** -> Merge Sort
+
+* Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+* Big-O gösterimini yazınız.
+
+```text
+[16,21,11,8,12,22]
+
+[16,21,11] /// [8,12,22] -- > 1.Aşama
+[16] , [21,11] // [8,12] , [22] -- > 2. Aşama
+[16] , [21] ,[11] // [8] , [12] , [22] -- > 3. Aşama
+
+[16] , [11,21] // [8,12] , [22] -- > 4. Aşama
+[11,16,21] // [8,12,22] -- > 5. Aşama
+[8,11,12,16,21,22] --> 6. Aşama
+
+Big O Gösterimi
+
+O(n*log(n))
+
+```
